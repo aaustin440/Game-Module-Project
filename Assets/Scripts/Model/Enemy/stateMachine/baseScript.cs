@@ -62,7 +62,7 @@ public class baseScript : MonoBehaviour
         Gizmos.DrawLine(groundCheck.position, groundCheck.position + (Vector3) (Vector2.down * baseData.groundDistance));
     }
 
-    public virtual void turn() // might need to go back and change 34.50
+    public virtual void turn() 
     {
         direction *= -1;
         livingGO.transform.Rotate(0f,180f,0f);
